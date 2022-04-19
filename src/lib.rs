@@ -1,7 +1,7 @@
 
 pub mod halide_runtime{
 
-	include!("HalideRuntime.rs");
+	include!("../../halide_test_app/src/HalideRuntime.rs");
 	
 	use std::process::{Output};		
 	
